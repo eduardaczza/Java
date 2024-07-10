@@ -1,4 +1,4 @@
-package Conteudo;
+package PastaConte.Conteudos;
 
 public class TesteCarro {
     public static void main(String[] args) {

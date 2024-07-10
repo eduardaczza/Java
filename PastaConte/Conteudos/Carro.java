@@ -1,4 +1,4 @@
-package Conteudo;
+package PastaConte.Conteudos;
 
 class Carro { 
     String marca;
