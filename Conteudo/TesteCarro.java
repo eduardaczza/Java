@@ -1,4 +1,4 @@
-package Pasta1;
+package Conteudo;
 
 public class TesteCarro {
     public static void main(String[] args) {
@@ -19,5 +19,11 @@ public class TesteCarro {
         double autonomia = van.obterAutonomia();
         System.out.println("A autonomia do carro é: " + autonomia);
         System.out.println("A autonomia do carro é: " + van.obterAutonomia());
+
+        double qtdCombs10 = van.calcularCombus(10);
+        double qtdCombs15 = van.calcularCombus(15);
+
+        System.out.println("QtdCombs10 = " + qtdCombs10);
+        System.out.println("QtdCombs15 = " + qtdCombs15);
     }
 }
