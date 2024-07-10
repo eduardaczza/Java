@@ -1,6 +1,6 @@
 package Pasta1;
 
-class Carro { //método simples sem retonro 
+class Carro { // método simples sem retonro
     String marca;
     String modelo;
     int numPassageiros;
@@ -12,8 +12,8 @@ class Carro { //método simples sem retonro
         System.out.println("A autonomia do carro é: " + capCombustivel * consCombst + " Km");
     }
 
-    //outro método
-    double obterAutonomia() { //se não colocar o return o java vai exigir que mude o método para void
+    // outro método agora com retorno
+    double obterAutonomia() { // se não colocar o return o java vai exigir que mude o método para void
 
         System.out.println("Métodos obterAutonomia foi chamado.");
 
