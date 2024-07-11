@@ -1,4 +1,4 @@
-package PastaConte;
+package PastaConteudos;
 
 import java.util.Scanner;
 

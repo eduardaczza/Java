@@ -1,4 +1,4 @@
-package PastaConte.Exercicos;
+package PastaConteudos.Exercicos;
 
 public class Lamp2 {
     public static void main(String[] args) {
