@@ -3,7 +3,7 @@ package PastaConteudos.Conteudos;
 public class Carros2 {
 
     //usando construtores
-    
+
     String marca;
     String modelo;
     int numPassageiros;
@@ -11,11 +11,13 @@ public class Carros2 {
     double consCombst;
 
 
-    Carros2(){
+   Carros2(){
         System.out.println("Classe Carros2 foi instanciada.");
         numPassageiros = 4;
     }
 
+
+    //sem o this
     Carros2(String marca_, String modelo_, int numPassageiros_, double capCombustivel_, double consCombst_){
         //construtores com parametros
         marca = marca_;
@@ -25,6 +27,7 @@ public class Carros2 {
         consCombst = consCombst_;
     }
 
+    
     void exibirAutonomia() {
         System.out.println("A autonomia do carro é: " + capCombustivel * consCombst + " Km");
     }
