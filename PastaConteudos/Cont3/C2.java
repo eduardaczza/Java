@@ -1,4 +1,4 @@
-package PastaConteudos.Conteudos;
+package PastaConteudos.Cont3;
 
 public class C2 {
     
@@ -41,12 +41,12 @@ public class C2 {
 
         System.out.println("Métodos obterAutonomia foi chamado.");
 
-        return capCombustivel * consCombst;
+        return this.capCombustivel * this.consCombst;
     }
 
     double calcularCombus(double Km){
         
-        double qtdCombs = Km/consCombst;
+        double qtdCombs = Km/this.consCombst;
 
         return qtdCombs;
     }

@@ -1,4 +1,4 @@
-package PastaConteudos.Conteudos;
+package PastaConteudos.Cont2;
 
 public class TesteC2 {
     public static void main(String[] args) {
