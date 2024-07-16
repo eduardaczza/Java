@@ -2,7 +2,7 @@ package PastaConteudos.Cont5;
 
 public class Calculadora {
     
-    //sobrecarga de metodos e construtores
+    //sobrecarga de metodos e construtores(overload)
     
     public int soma(int num1, int num2){
         return num1 + num2;
