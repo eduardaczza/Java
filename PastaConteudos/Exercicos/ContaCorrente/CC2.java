@@ -1,4 +1,4 @@
-package PastaConteudos.Exercicos;
+package PastaConteudos.Exercicos.ContaCorrente;
 
 public class CC2 {
     public static void main(String[] args) {

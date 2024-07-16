@@ -1,4 +1,4 @@
-package PastaConteudos.Exercicos;
+package PastaConteudos.Exercicos.Lampada;
 
 public class Lampada {
     

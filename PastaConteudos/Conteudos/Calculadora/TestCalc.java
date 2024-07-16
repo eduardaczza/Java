@@ -1,4 +1,4 @@
-package PastaConteudos.Cont5;
+package PastaConteudos.Conteudos.Calculadora;
 
 public class TestCalc {
      public static void main(String[] args) {

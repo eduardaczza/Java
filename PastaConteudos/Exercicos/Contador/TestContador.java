@@ -1,4 +1,4 @@
-package PastaConteudos.Exercicos;
+package PastaConteudos.Exercicos.Contador;
 
 public class TestContador {
     

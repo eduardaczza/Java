@@ -1,8 +1,10 @@
-package PastaConteudos;
+package PastaConteudos.Exercicos.JogoVelha;
 
 import java.util.Scanner;
 
 public class jogoVelha {
+
+    //original(não tão avançado, codigo inicial)
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

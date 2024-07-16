@@ -1,6 +1,9 @@
-package PastaConteudos.Exercicos;
+package PastaConteudos.Exercicos.JogoVelha;
 
 public class JgVelha {
+
+    //com alterações, mais desenvolvido 
+
     char[][] jogoVelha = new char[3][3];
     int jogada = 1;
 

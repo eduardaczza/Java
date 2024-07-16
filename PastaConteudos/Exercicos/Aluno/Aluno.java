@@ -1,4 +1,4 @@
-package PastaConteudos.Exercicos;
+package PastaConteudos.Exercicos.Aluno;
 
 public class Aluno {
     String nome;

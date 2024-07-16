@@ -1,4 +1,4 @@
-package PastaConteudos.Cont3;
+package PastaConteudos.Conteudos.Carros3;
 
 public class TC2 {
     public static void main(String[] args) {

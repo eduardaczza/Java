@@ -1,4 +1,4 @@
-package PastaConteudos.Cont6;
+package PastaConteudos.Conteudos.Calculadora2;
 
 public class TestCalc2 {
 

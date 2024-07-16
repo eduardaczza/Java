@@ -1,4 +1,4 @@
-package PastaConteudos.Exercicos;
+package PastaConteudos.Exercicos.JogoVelha;
 
 import java.util.Scanner;
 
