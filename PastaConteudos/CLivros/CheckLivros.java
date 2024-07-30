@@ -32,5 +32,4 @@ public class CheckLivros {
             System.out.println(i + " " + andamento + " " + lido.get(i));
         }
     }
-
 }
