@@ -1,4 +1,4 @@
-package PastaConteudos.CheckList;
+package PastaConteudos.Conteudos.CheckList;
 
 import java.util.ArrayList;
 import java.util.List;
