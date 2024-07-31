@@ -6,11 +6,11 @@ public class Car {
     private String modelo;
     private int numPassageiros;
 
-    public String getMarca(){ //get obter valor
+    public String getMarca(){ //get realiza uma busca por um dado elemento em uma posição específica da lista
         return this.marca;
     }
 
-    public void setMarca(String marca){ // set atribuir valor
+    public void setMarca(String marca){ // set realoca ou introduz um novo elemento na lista 
         this.marca = marca;
     }
 
