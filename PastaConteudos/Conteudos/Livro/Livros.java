@@ -8,12 +8,11 @@ public class Livros {
 
     static Scanner scanner = new Scanner(System.in);
     
-    private ArrayList<String> livros;
-    private ArrayList<Boolean> lido;
-    public boolean livro;
+    private ArrayList<String> livros = new ArrayList<>();
+    private ArrayList<Boolean> lido = new ArrayList<>();
 
     public void nomeLivro(String livro){
-        if (livro == null) {
+        if (livro == null || livro.isEmpty()) {
             System.out.println("O livro não foi adicionado.");
         } else {
             livros.add(livro);
@@ -27,11 +26,10 @@ public class Livros {
         String nmAutor = scanner.next();
         
         scanner.nextLine();
-        if (nmAutor == null) {
+        if (nmAutor == null || nmAutor.isEmpty()) {
             System.out.println("O autor não foi adicionado.");
         } else {
-            System.out.println(nmAutor);
-            System.out.println("O nome do autor foi adicionado.");
+            System.out.println("O autor" + autor + "foi adicionado.");
         }
     }
 
@@ -64,9 +62,9 @@ public class Livros {
         int opc = -1;
         try {
             opc = scanner.nextInt();
-            scanner.nextLine();
+        
         } catch(InputMismatchException e){
-            scanner.nextLine();
+            
             System.out.println("Tentativa inválida, digite um número para validação do livro.");
         }
         return opc;
@@ -76,9 +74,9 @@ public class Livros {
         int marca = -1;
         try{
             marca = scanner.nextInt();
-            scanner.nextLine();
+        
         } catch(InputMismatchException e){
-            scanner.nextLine();
+
             System.out.println("Tentativa inválida, digite um número para validação da posição de marcação.");
         }
         return marca;
@@ -94,8 +92,9 @@ public class Livros {
             System.out.println("4. Marcar como lido");
             System.out.println("5. Mostrar lista de livros");
             System.out.println("6. Sair da lista");
+            System.out.println("Escolha uma das opções ");
             int opcao = obtOpc(scanner);
-            scanner.nextLine();
+            
 
             switch (opcao) {
                 case 1:
@@ -117,14 +116,10 @@ public class Livros {
                     break;
 
                 case 4:
-                    if (clivros.livro) {
-                        System.out.println("Nenhum livro lido");
-                    } else {
-                        clivros.listaLivros();
-                        System.out.println("Digite o número do livro para a marcação. ");
-                        int marca = obtMarca(scanner);
-                        clivros.livroLido(marca);
-                    }
+                    clivros.listaLivros();
+                    System.out.println("Digite o número do livro para marcar como lido: ");
+                    int marca = obtMarca(scanner);
+                    clivros.livroLido(marca);
                     break;
 
                 case 5:
