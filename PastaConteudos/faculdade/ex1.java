@@ -43,7 +43,18 @@ public class ex1 {
         System.out.println("O resto da divisão do número " + num + " por 3 é igual a " + resto);
 
         // alimentos em kg
+        System.out.println("Digite quantos kg tem o alimento: ");
+        double qantidKg = scanner.nextDouble();
 
+        double qtddG = qantidKg * 1000;
+
+        double consumoDiario = 50;
+
+        double diasD = qtddG / consumoDiario;
+
+        System.out.println("O alimento vai durar " + diasD + " dias.");
+
+        
         scanner.close();
     }
 
