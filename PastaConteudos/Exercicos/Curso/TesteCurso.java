@@ -37,7 +37,32 @@ public class TesteCurso {
 
         Aluno[] alunos = new Aluno[5];
         for (int i = 0; i < 5; i++){
+
+            scanner.nextLine();
             
+            System.out.println("Digite a nota do aluno " + (i+1));
+            String nomeAluno = scanner.nextLine();
+
+            System.out.println("Digite a matrícula do aluno ");
+            String matAluno = scanner.nextLine();
+
+            double[] notas = new double[4];
+
+            for (int j = 0; j < 4; j++){
+                System.out.println("Digite a nota do aluno " + (j+1));
+                notas[j] = scanner.nextDouble();
+            }
+
+            Aluno aluno = new Aluno();
+            aluno.setNome(nomeAluno);
+            aluno.setMatricula(matAluno);
+            aluno.setNotas(notas);
+
+            alunos[i] = aluno;
         }
+
+        curso.setAlunos(alunos);
+
+        System.out.println(curso.obterInfo());
     }
 }

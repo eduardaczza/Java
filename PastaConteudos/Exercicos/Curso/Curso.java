@@ -41,4 +41,34 @@ public class Curso {
     public void setAlunos(Aluno[] alunos) {
         this.alunos = alunos;
     }
+
+    public String obterInfo(){
+        String info = "Nome do curso = " + nome + "\n";
+
+        if (professor != null) {
+            info += professor.obterInfo();
+        }
+
+        if (alunos != null) {
+            System.out.println("----Alunos----");
+            for (Aluno aluno : alunos){
+                if (aluno != null) {
+                    info += aluno.obterInfo();   
+                    info += "\n";
+                }
+            }
+            info += "\nMédia da turma = " + mediaTurma();
+        }
+        return info;
+    }
+
+    public double mediaTurma(){
+        double soma = 0;
+        for (Aluno aluno : alunos){
+            if (aluno != null) {
+                soma += aluno.obterMedia();
+            }
+        }
+        return soma/alunos.length;
+    }
 }
