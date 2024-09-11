@@ -64,5 +64,7 @@ public class TesteCurso {
         curso.setAlunos(alunos);
 
         System.out.println(curso.obterInfo());
+
+        scanner.close();
     }
 }
