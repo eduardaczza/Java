@@ -1,4 +1,4 @@
-package Aula1;
+package PastaConteudos.Conteudos.Aula1;
 import java.util.Scanner;
 
 public class Semana {
