@@ -1,4 +1,4 @@
-package PastaConteudos.Conteudos.AtvGylles.Produto;
+package PastaConteudos.Conteudos.Atv2.Produto;
 
 public class TestProduto {
     public static void main(String[] args) {

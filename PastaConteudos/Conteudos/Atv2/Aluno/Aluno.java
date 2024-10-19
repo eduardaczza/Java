@@ -1,4 +1,4 @@
-package PastaConteudos.Conteudos.AtvGylles.Aluno;
+package PastaConteudos.Conteudos.Atv2.Aluno;
 
 public class Aluno {
     public String nome;

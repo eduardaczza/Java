@@ -1,4 +1,4 @@
-package PastaConteudos.Conteudos.AtvGylles.ConstrutorHerança;
+package PastaConteudos.Conteudos.Atv.ConstrutorHerança;
 
 public class Cachorro extends Animal {
     private String raca;
