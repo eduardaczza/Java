@@ -16,7 +16,7 @@ public class Aluno {
         System.out.println("Matricula: " + matricula);
     }
 
-    private void valorIdade(){
+    public void valorIdade(){
         if (idade > 0) {
             System.out.println("Idade válida.");
         } else {
