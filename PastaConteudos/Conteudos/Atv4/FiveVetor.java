@@ -1,24 +1,30 @@
 package PastaConteudos.Conteudos.Atv4;
 
+import java.util.InputMismatchException;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class FiveVetor {
     public static void main(String[] args) {
-        Scanner Scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         int[] vetor = new int[5];
         int soma = 0;
 
-        for (int i = 0; i < vetor.length; i++){
-            System.out.println("Digite o número do vetor " + (i+1) + ": ");
-            
-            vetor[i] = Scanner.nextInt();
-
-            soma += vetor[i];
+        try {
+            for (int i = 0; i < vetor.length; i++) {
+                System.out.print("Digite o número " + (i + 1) + ": ");
+                vetor[i] = scanner.nextInt();
+                soma += vetor[i];
+            }
+        } catch (InputMismatchException e) {
+            System.err.println("Entrada inválida! Por favor, digite apenas números inteiros.");
+        } catch (NoSuchElementException e) {
+            System.err.println("Fim de arquivo inesperado. Verifique a entrada.");
+        } finally {
+            scanner.close();
         }
 
-        System.out.println("A soma dos vetores é igual a " + soma);
-    
-        Scanner.close();
+        System.out.println("A soma dos elementos do vetor é: " + soma);
     }
 }
