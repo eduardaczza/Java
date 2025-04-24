@@ -1,4 +1,4 @@
-package PastaConteudos.Conteudos.Atv4;
+package PastaConteudos.Conteudos.Faculdade.Atv4;
 
 import java.util.InputMismatchException;
 import java.util.NoSuchElementException;

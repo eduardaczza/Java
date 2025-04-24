@@ -1,4 +1,4 @@
-package PastaConteudos.Conteudos.Atv.ConstrutorBasico;
+package PastaConteudos.Conteudos.Faculdade.Atv.ConstrutorBasico;
 
 public class TestCarro {
   public static void main(String[] args) {

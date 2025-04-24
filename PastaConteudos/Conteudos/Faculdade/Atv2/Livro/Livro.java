@@ -1,4 +1,4 @@
-package PastaConteudos.Conteudos.Atv2.Livro;
+package PastaConteudos.Conteudos.Faculdade.Atv2.Livro;
 
 public class Livro {
     public String titulo;

@@ -1,4 +1,4 @@
-package PastaConteudos.Conteudos.Atv.ConstrutorHerança;
+package PastaConteudos.Conteudos.Faculdade.Atv.ConstrutorHerança;
 
 public class Animal {
     private String nome;

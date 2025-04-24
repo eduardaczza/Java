@@ -1,4 +1,4 @@
-package PastaConteudos.Conteudos.Atv.ConstrutorHerança;
+package PastaConteudos.Conteudos.Faculdade.Atv.ConstrutorHerança;
 
 public class TestAnimal {
     public static void main(String[] args) {

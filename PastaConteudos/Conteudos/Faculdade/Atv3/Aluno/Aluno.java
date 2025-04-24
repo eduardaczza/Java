@@ -1,4 +1,4 @@
-package PastaConteudos.Conteudos.Atv3.Aluno;
+package PastaConteudos.Conteudos.Faculdade.Atv3.Aluno;
 
 public class Aluno {
 

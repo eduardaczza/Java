@@ -1,4 +1,4 @@
-package PastaConteudos.Conteudos.Lista;
+package PastaConteudos.Conteudos.EstruturaDados.Lista;
 
 public class Teste {
 

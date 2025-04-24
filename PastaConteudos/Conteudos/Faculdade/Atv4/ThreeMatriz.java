@@ -1,4 +1,4 @@
-package PastaConteudos.Conteudos.Atv4;
+package PastaConteudos.Conteudos.Faculdade.Atv4;
 
 public class ThreeMatriz {
         public static void main(String[] args) {

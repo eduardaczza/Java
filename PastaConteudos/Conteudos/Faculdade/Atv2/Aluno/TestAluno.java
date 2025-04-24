@@ -1,4 +1,4 @@
-package PastaConteudos.Conteudos.Atv2.Aluno;
+package PastaConteudos.Conteudos.Faculdade.Atv2.Aluno;
 
 public class TestAluno {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package PastaConteudos.Conteudos.Atv2.Produto;
+package PastaConteudos.Conteudos.Faculdade.Atv2.Produto;
 
 public class Produto {
     public String nome;

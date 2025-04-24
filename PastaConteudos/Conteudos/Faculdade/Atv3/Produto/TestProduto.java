@@ -1,4 +1,4 @@
-package PastaConteudos.Conteudos.Atv3.Produto;
+package PastaConteudos.Conteudos.Faculdade.Atv3.Produto;
 
 public class TestProduto {
     public static void main(String[] args) {

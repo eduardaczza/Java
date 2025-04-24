@@ -1,4 +1,4 @@
-package PastaConteudos.Conteudos.Atv4;
+package PastaConteudos.Conteudos.Faculdade.Atv4;
 
 public class TenVetor {
     public static void main(String[] args) {

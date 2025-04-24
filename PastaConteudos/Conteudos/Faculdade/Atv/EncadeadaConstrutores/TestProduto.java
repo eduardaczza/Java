@@ -1,4 +1,4 @@
-package PastaConteudos.Conteudos.Atv.EncadeadaConstrutores;
+package PastaConteudos.Conteudos.Faculdade.Atv.EncadeadaConstrutores;
 
 public class TestProduto {
     public static void main(String[] args) {
