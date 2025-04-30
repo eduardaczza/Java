@@ -10,11 +10,14 @@ public class MultiplosCatch {
         try {
             System.out.println(numeros[i] + "/" + denom[i] + " = " + (numeros[i]/denom[i]));
             
-        } catch (ArithmeticException e) {
-            System.out.println("Erro ao dividir por zero");
+        } /*catch (ArithmeticException e) {
+            System.out.println("Erro ao dividir por zero");  //são usados caso nao se use o java7
         } 
         catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Posição do array é inválida");
+        }*/
+        catch (ArithmeticException | ArrayIndexOutOfBoundsException e){ //so é usado a partir do java7
+            System.out.println("Ocorreu um erro");
         }
        }
     }

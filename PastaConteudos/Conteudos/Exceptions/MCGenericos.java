@@ -12,7 +12,7 @@ public static void main(String[] args) {
         } catch (ArithmeticException e) {
             System.out.println("Erro ao dividir por zero");
         } 
-        catch (Throwable e) {
+        catch (Throwable e) {  //exceção generica não é tão "elegante" de se usar
             System.out.println("Ocorreu um erro");
         }
        }
